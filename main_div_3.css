@@ -1,19 +1,39 @@
 
 @media(min-width: 1200px) {
     .third_div_sub_1 {
-        padding-right: 30% !important;
+        padding-right: 28% !important;
         padding-top: 2rem;
         padding-bottom: 2rem;
         padding-left: 2rem !important;
     }
     .main_third_div{
         margin-top: 6rem;
+        margin-bottom: 6rem;
+        overflow: visible;
     }
+    .blue_img{
+        top: -2.5rem;
+        right: 5rem;
+        height: 30rem;
+        width: 15rem;
+        z-index: 2;
+    }
+    .white_img{
+        top: -6rem;
+        right: 3rem;
+        height: 30rem;
+        width: 15rem;
+        z-index: 1;
+    }
+
 }
 
 @media(max-width:1200px) {
     .third_div_sub_1 {
         padding: 2rem 2rem !important;
+    }
+    .main_third_div {
+        overflow: hidden;
     }
 }
 
