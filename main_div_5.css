@@ -1,0 +1,12 @@
+.main_fifth_div{
+    height: auto;
+}
+.main_fifth_div h1{
+    font-size: 2rem !important;
+}
+.grid_image1{
+    box-shadow: 2px 2px blue;
+}
+.grid_image2{
+    box-shadow: 2px 2px green;
+}
