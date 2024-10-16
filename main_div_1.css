@@ -51,6 +51,37 @@
     }
 }
 
-.form_radio_btn input:checked +label{
-    background-color: red !important;
-}
+
+ .radio form input:checked+label{
+    background-color: white !important;
+    color: blue !important;
+ }
+ .font-size-buttons{
+    font-size: 0.9rem;
+    font-weight: 600;
+ }
+
+ .radio2 form input:checked+label{
+    background-color: white !important;
+    color: blue !important;
+ }
+ .email_image{
+    top: 2.6rem;
+    left: 0.4rem;
+ }
+
+ .email_div input:focus{
+    outline: 3px solid rgb(115, 115, 223);
+ }
+ .radio2 form input:checked+label{
+    background-color: white !important;
+    color: blue !important;
+ }
+
+ .radio3 form input:checked+label{
+    background-color: white !important;
+    color: blue !important;
+ }
+ .form_last_div{
+    font-size: 0.9rem;
+ }
