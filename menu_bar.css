@@ -1,0 +1,22 @@
+
+
+.menu_bar_class{
+    top: -1rem;
+    right: 0;
+    cursor: pointer;
+}
+
+.menu_xl{
+    width: 3.5rem;
+}
+@media (max-width:1200px){
+    .menu_bar_class{
+        display: none;
+    }
+}
+
+@media (max-width:1300px){
+    .fm_class{
+        display: none;
+    }
+}

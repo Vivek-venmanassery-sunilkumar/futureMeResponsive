@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="main_div_5.css">
     <link rel="stylesheet" href="main_div_6_7.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="menu_bar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
     <script src="script1.js"></script>
 
     <!-- First main div -->
-    <div class="main_first_div">
+    <div class="main_first_div position-relative">
             <div class="container-fluid d-flex">
                 <div class="container mt-3 ms-1">
                     <a href="/">
@@ -31,9 +32,23 @@
                         <button class="btn" data-bs-toggle="collapse" type="button" data-bs-target="#menu"><i class="fa-solid fa-bars fa-lg text-light" id="icon_menu"></i></button>
                     </div>
                 </div>
-                <div class="d-xl-block mt-3">
-                    <div class="business_border pe-3"><p class="fw-semibold text-light">business</p></div>
-                    
+                <div class="d-xl-flex mt-3 position-absolute menu_bar_class">
+                    <div class="fm_class d-flex justify-content-between m-0 menu_xl">
+                        <img src="https://prod-assets.futureme.org/assets/logo/fm-initials-light-b0bb1ec7827a6f4cc7d799c1aa9813b7b8e43a7c3b81e69467bf7abb9e599863.svg">
+                        <p class="pt-3 pe-2"><span>for  </span></p>
+                    </div>
+                    <div class="business_border pe-3 text-center"><p class="fw-semibold text-light m-0 pt-3">business</p></div>
+                    <div class="education_border pe-3"><p class="fw-semibold m-0 pt-3"><span class="text-secondary"> and </span><span class="text-light">education</span></p></div>
+                    <div><p class="fw-semibold m-0 pt-2 fs-4 text-light pe-3">Blog</p></div>
+                    <div><p class="fw-semibold m-0 pt-2 fs-4 text-light">Press & Props</p></div>
+                    <div class="ps-3 pe-3">
+                        <button class="btn text-light bg-transparent order rounded-3 border border-1 mt-2 fw-semibold pt-1 pb-2">
+                            <span >Sign In</span>
+                        </button>
+                        <button class="btn text-primary bg-light border rounded-3 fw-semibold mt-2 pt-1 pb-2">
+                            <span >Sign Up</span>
+                        </button>
+                    </div>
                 </div> 
                 
             
@@ -71,6 +86,7 @@
                                 </div>
                             </div>
             </div> 
+            <hr>
             
            <!-- text in the initial section of the first main div  -->
             <div class="container-fluid p-4">
