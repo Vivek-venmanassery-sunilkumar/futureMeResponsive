@@ -1,5 +1,8 @@
 .main_sixth_div{
-    height: 8rem;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(5, 5, 83);
 }
 .main_seventh_div{
     height: 30rem;
