@@ -1,4 +1,45 @@
+@media (max-width:1006px){
+    .text_area_main_body{
+        height: 300px;
+    }
+}
+
+
+.text_area_main_body:focus{
+    outline:5px solid rgb(79, 79, 238);
+}
+
 .main_first_div{
-    height: 50rem;
+    height: auto;
     background-color: rgb(27, 27, 210);
+}
+#menu{
+    width: 15rem;
+    height: 15rem;
+    background-color: white;
+    right: 0.5rem;
+    top: 3rem;
+}
+
+.menu_hidden_div_first_p_tag_div{
+    border-right:3px solid red ;
+}
+.menu_hidden_div_second_p_tag_div{
+    border-right:3px solid green ;
+}
+
+.menu_icon_text{
+    gap: 0.8rem;
+}
+.menu_icon_text1{
+    gap: 4.3rem;
+}
+.menu_icon_text2{
+    gap: 10.5rem;
+}
+.menu_icon_text3{
+    gap: 6.6rem;
+}
+.h1_first{
+    font-size: 2rem;
 }

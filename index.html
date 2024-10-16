@@ -15,11 +15,93 @@
 </head>
 <body>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script1.js"></script>
 
     <!-- First main div -->
-    <div class="container-fluid main_first_div">
+    <div class="main_first_div">
+            <div class="container-fluid d-flex">
+                <div class="container mt-3 ms-1">
+                    <a href="/">
+                        <img
+                        src="https://prod-assets.futureme.org/assets/logo/logo-reverse@1x-056e77a61325f5f09d494ef19e0f2aab3ab1a50253c361e57169e3bd923053ed.svg">
+                    </a>
+                </div>
+                <div>
+                    <div class="container-fluid mt-2 mb-1 position-relative d-xl-none">
+                        <button class="btn" data-bs-toggle="collapse" type="button" data-bs-target="#menu"><i class="fa-solid fa-bars fa-lg text-light" id="icon_menu"></i></button>
+                    </div>
+                </div> 
+                
+            
+                            <!-- Hidden Menu -->
+                            <div class="collapse border rounded-4 position-absolute" id="menu">
+                                <div class="container d-flex justify-content-between mt-1 mb-2">
+                                    <button class="btn text-primary bg-light border rounded-3 border-primary fw-semibold pt-1 pb-1">
+                                        <span class="ps-2 pe-2 ">Sign In</span>
+                                    </button>
+                                    <button class="btn text-light bg-primary border rounded-3 fw-semibold pt-1 pb-1">
+                                        <span class="ps-2 pe-2">Sign Up</span>
+                                    </button>
+                                </div> 
+                                <div class="d-block w-75 text-center text-secondary fs-6 menu_hidden_div_first_p_tag_div">
+                                    <p>FutureMe for</p>
+                                </div>
+                                <div class="d-block w-75 text-center text-secondary fs-6 menu_hidden_div_second_p_tag_div">
+                                    <p>FutureMe for</p>
+                                </div>
+                                <div class="d-flex justify-content-center menu_icon_text">
+                                    <div><i class="fa-solid fa-pen fa-primary" style="color: blue;"></i></div>
+                                    <div class="d-block"><p class="m-0">Write a letter to the Future</p></div>
+                                </div>
+                                <div class="d-flex justify-content-center menu_icon_text1">
+                                    <div><i class="fa-solid fa-book-open-reader" style="color: blue;"></i></div>
+                                    <div class="d-block"><p class="m-0">Read public letters</p></div>
+                                </div>
+                                <div class="d-flex justify-content-center menu_icon_text2">
+                                    <div><i class="fa-solid fa-rss" style="color: blue;"></i></div>
+                                    <div class="d-block"><p class="m-0">Blog</p></div>
+                                </div>
+                                <div class="d-flex justify-content-center menu_icon_text3">
+                                    <div><i class="fa-solid fa-pen fa-primary" style="color: blue;"></i></div>
+                                    <div class="d-block"><p class="m-0">Press & Props</p></div>
+                                </div>
+                            </div>           
+            </div> 
+            
+           <!-- text in the initial section of the first main div  -->
 
-    </div>
+            <h1 class="h1_first fw-bold text-light p-4 m-0 pb-1">Write a letter to your future self</h1>
+
+            <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-2">
+                <span class="text-light">Write</span>
+                <span class="text-secondary">. Pick a recieving date.</span>
+                <span class="text-light">Send</span>
+                <span class="text-secondary">. Verify. Thats it</span>
+            </h1>
+            <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-1">
+                <span class="text-secondary">Your letter is </span>
+                <span class="text-light">safe</span>
+                <span class="text-secondary">with us - we've sent over </span>
+                <span class="text-light">20 million letters</span>
+                <span class="text-secondary">in 20 years</span>
+            </h1> 
+            
+            <div class="container ms-1 mt-0">
+                <input type="text" class="form-control transparent-input fw-bold fs-4 bg-transparent border-0 text-light" value="A letter from Oct 16,2024">
+                <a class="text-decoration-none ms-2 bg-primary"href="/"><span class="text-light"><i class="fa-solid fa-expand"></i></span><span class="text-light">Full screen</span></a>
+            </div>
+
+            <div class="grid mt-3 pe-4 ps-4">
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-3">
+                        <textarea name="new_letter" class="text_area_main_body w-100 border rounded-4 p-4">Dear FutureMe,</textarea>
+                    </div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+        
 
     <!-- Second main div -->
     <div class="container-fluid p-4 main_second_div">
@@ -78,7 +160,7 @@
  
 
     <!-- fourth div -->
-     <div class="container-fluid pt-5 p-4 main_fourth_div">
+     <div class="container-fluid pt-5 p-5 main_fourth_div">
         <h1 class="fw-semibold">Are you a manager, business owner, team leader, or education worker?</h1>
         <p class="text-secondary fw-semibold">Explore the customisable version of our platform for those looking to engage and motivate their own communities at FutureMe Business & FutureMe Education.</p>
         <div class="container-fluid ratio ratio-16x9 p-0">
