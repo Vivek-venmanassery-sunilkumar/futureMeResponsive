@@ -85,3 +85,7 @@
  .form_last_div{
     font-size: 0.9rem;
  }
+
+ .business_border{
+    border-right: 2px solid red;
+ }
