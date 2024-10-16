@@ -1,4 +1,22 @@
 
+.main_third_div{
+    height: auto;
+}
+.third_div_sub_1{
+    height: auto;
+}
+.image_third_div{
+    height: 2.8rem;
+    width: 8.5rem;
+}
+.phone_images{
+    margin-bottom: -10rem;
+    position: relative;
+    z-index: -5;
+    margin-left: -1.5rem;
+}
+
+
 @media(min-width: 1200px) {
     .third_div_sub_1 {
         padding-right: 28% !important;
@@ -36,24 +54,3 @@
         overflow: hidden;
     }
 }
-
-
-
-
-.main_third_div{
-    height: auto;
-}
-.third_div_sub_1{
-    height: auto;
-}
-.image_third_div{
-    height: 2.8rem;
-    width: 8.5rem;
-}
-.phone_images{
-    margin-bottom: -10rem;
-    position: relative;
-    z-index: -5;
-    margin-left: -1.5rem;
-}
-

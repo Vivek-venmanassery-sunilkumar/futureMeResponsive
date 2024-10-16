@@ -65,38 +65,58 @@
                                     <div><i class="fa-solid fa-pen fa-primary" style="color: blue;"></i></div>
                                     <div class="d-block"><p class="m-0">Press & Props</p></div>
                                 </div>
-                            </div>           
+                            </div>
             </div> 
             
            <!-- text in the initial section of the first main div  -->
+            <div class="container-fluid p-4">
+                <h1 class="h1_first fw-bold text-light p-4 m-0 pb-1">Write a letter to your future self</h1>
 
-            <h1 class="h1_first fw-bold text-light p-4 m-0 pb-1">Write a letter to your future self</h1>
+                <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-2">
+                    <span class="text-light">Write</span>
+                    <span class="text-secondary">. Pick a recieving date.</span>
+                    <span class="text-light">Send</span>
+                    <span class="text-secondary">. Verify. Thats it</span>
+                </h1>
+                <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-1">
+                    <span class="text-secondary">Your letter is </span>
+                    <span class="text-light">safe</span>
+                    <span class="text-secondary">with us - we've sent over </span>
+                    <span class="text-light">20 million letters</span>
+                    <span class="text-secondary">in 20 years</span>
+                </h1> 
+                
+                <div class="container ms-1 mt-0">
+                    <input type="text" class="form-control transparent-input fw-bold fs-4 bg-transparent border-0 text-light" value="A letter from Oct 16,2024">
+                    <a class="text-decoration-none ms-2 bg-primary"href="/"><span class="text-light"><i class="fa-solid fa-expand"></i></span><span class="text-light">Full screen</span></a>
+                </div>
 
-            <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-2">
-                <span class="text-light">Write</span>
-                <span class="text-secondary">. Pick a recieving date.</span>
-                <span class="text-light">Send</span>
-                <span class="text-secondary">. Verify. Thats it</span>
-            </h1>
-            <h1 class="fs-4 fw-semibold p-4 m-0 pt-0 pb-1">
-                <span class="text-secondary">Your letter is </span>
-                <span class="text-light">safe</span>
-                <span class="text-secondary">with us - we've sent over </span>
-                <span class="text-light">20 million letters</span>
-                <span class="text-secondary">in 20 years</span>
-            </h1> 
-            
-            <div class="container ms-1 mt-0">
-                <input type="text" class="form-control transparent-input fw-bold fs-4 bg-transparent border-0 text-light" value="A letter from Oct 16,2024">
-                <a class="text-decoration-none ms-2 bg-primary"href="/"><span class="text-light"><i class="fa-solid fa-expand"></i></span><span class="text-light">Full screen</span></a>
-            </div>
-
-            <div class="grid mt-3 pe-4 ps-4">
-                <div class="row">
-                    <div class="col-12 col-lg-6 mb-3">
-                        <textarea name="new_letter" class="text_area_main_body w-100 border rounded-4 p-4">Dear FutureMe,</textarea>
+                <div class="grid mt-3 pe-4 ps-4">
+                    <form action="#">
+                    <div class="row">
+                        <div class="col-12 col-lg-8 col-xxl-9 mb-3">
+                            <textarea name="new_letter" class="text_area_main_body w-100 border rounded-4 p-4">Dear FutureMe,</textarea>
+                        </div>
+                        <div class="col-12 col-lg-4 col-xxl-3 mb-3">
+                            <div class="d-flex w-100 justify-content-between"><p><span class="text-secondary-emphasis fw-semibold">Deliver in</span></p>
+                                <p><span class="text-secondary-emphasis fw-semibold">or Choose a </span><span class="text-light fw-semibold">date</span></p>
+                            </div>
+                            <div class="form-radio_btn d-flex">
+                                    <input type="radio" id="6" class="d-none" checked>
+                                    <label for="6" name="time" class="btn">6months</label> 
+                                    <input type="radio" id="1" class="d-none">
+                                    <label for="1" name="time" class="btn">1year</label> 
+                                    <input type="radio" id="3" class="d-none">
+                                    <label for="3" name="time" class="btn">3years</label> 
+                                    <input type="radio" id="5" class="d-none">
+                                    <label for="5" name="time" class="btn">5years</label> 
+                                    <input type="radio" id="10" class="d-none">
+                                    <label for="10" name="time" class="btn">10years</label> 
+                                    
+                            </div>
+                        </div>    
                     </div>
-                    <div></div>
+                </form>
                 </div>
             </div>
         </div>
