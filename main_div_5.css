@@ -10,3 +10,27 @@
 .grid_image2{
     box-shadow: 2px 2px green;
 }
+
+.grid_image1:hover{
+    transform: translateY(2px);
+}
+.grid_image2:hover{
+    transform: translateY(2px);
+}
+.fifth_div_p span{
+    position: relative;
+    cursor: pointer;
+}
+.fifth_div_p span::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    transition: width 0.33s;
+}
+.fifth_div_p:hover span::after{
+    width: 100%;    
+}

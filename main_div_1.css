@@ -43,12 +43,11 @@
     font-size: 2.5rem;
 }
 
-
-
-@media (max-width:1005px){
-    .text_area_main_body{
-        height: 300px;
-    }
+.menu_xl{
+    width: 2rem;
+    flex-wrap: nowrap;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 
@@ -85,4 +84,17 @@
  .form_last_div{
     font-size: 0.9rem;
  }
+
+.main_buttons:hover{
+    scale: 1.1;
+}
+
+
+ 
+@media (max-width:1005px){
+    .text_area_main_body{
+        height: 300px;
+    }
+}
+
 

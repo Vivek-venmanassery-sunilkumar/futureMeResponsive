@@ -5,5 +5,67 @@
     background-color: rgb(5, 5, 83);
 }
 .main_seventh_div{
-    height: 30rem;
+    height: auto;
+}
+
+.navbar_link span{
+    position: relative;
+    
+}
+
+.navbar_link span::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background-color: white;
+    height: 0;
+    transition: height 0.33s ease,width 0.33s ease;
+}
+
+.navbar_link:hover span::after{
+    width: 100%;
+    height: 2px;
+}
+
+.twitter{
+    color:white;
+}
+.youtube{
+    color: white;
+}
+
+.twitter:hover{
+    color: aqua;
+    transition: color 0.33s;
+}
+.youtube:hover{
+    color: red;
+    transition: color 0.33s;
+}
+
+.footer_span{
+    position: relative;
+}
+.footer_p{
+    cursor: pointer;
+}
+
+.footer_span::after{
+    content: '';
+    position: absolute;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    transition: width 0.33s;
+}
+
+.footer_span:hover::after{
+    width: 100%;
+}
+.icons i{
+    scale: 1.5;
 }
